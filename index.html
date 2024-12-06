@@ -89,7 +89,7 @@ p.ex1 {
  <p class ="ex1">
   <pre>
    <div style="white-space: pre-wrap;">
-    <pre id="Introduction_InText" >
+    <pre id="Introduction_InText">
    Earthquakes accounted for 750,000 deaths between 1998 and 2017, affecting in total 125 million in this time <a href="#(7)">(7)(World Health Organization, 2024)</a>. Japan sits on the joint of 4 tectonic plates, (The north american plate, the Pacific, the philippine sea plate, the eurasian plate) <a href="#(8)">(8)(www.gsi.go.jp, n.d.)</a>. These plates move and grind against each other, this creates large pressure to build up, before being released as an earthquake. Japan as a result has the fourth  highest number of major earthquakes since 1990, with 98 <a href="#(9)">(9)(Buchholz, 2024)</a>. This poses quite an issue for those living there. Leading them to invest greatly in earthquake impact minimising engineering. In total Japan has spent over ¥3.2 Trillion Japanese yen (over £16 billion pounds) on such technology between 2020 and 2023 alone according to the Japanese cabinet office statistics <a href="#(10)">(10)(Klein, 2024a)</a>. The technologies used in the Shinjuku Mitsui building located in Tokyo will be analysed and it will be discussed how effective these measures are for the costs of refurbishing the structure.
     </pre>
   </pre>
@@ -243,7 +243,7 @@ A side effect of earthquakes that must also be prepared for is Tsunamis, these a
     return wordCount;
   }
   // Function to calculate and display total word count from selected sections
-  function displaytotalWordCount() {
+  function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
     const AnalysisCount = displayWordCount("Analysis_InText");
@@ -253,7 +253,7 @@ A side effect of earthquakes that must also be prepared for is Tsunamis, these a
     document.getElementById("totalWordCount").innerText = 'Total word count: ${totalWordCount}';
   }
   // Run the function for specific sections and display total count when the page loads
-  window.onload = displaytotalWordCount;
+  window.onload = displayTotalWordCount;
 </script>
  
 </body>
